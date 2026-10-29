@@ -23,3 +23,11 @@ print(person.name)
 --Nulls
 local app = nil
 print(app)
+
+--functions as variables
+local greet = 
+    function(name)
+        return "Hello "..name
+    end
+
+    print(greet("Marcelo"))
