@@ -13,3 +13,12 @@ if playerLevel <= 5 or playerSpeed <= 20 then
 else
     print("You can enter the level");
 end
+
+local temperature = 12;
+if temperature > 20 then
+    print("Hot");
+elseif temperature > 14 and temperature <= 20 then
+    print("Medium");
+else
+    print("Cold")
+end
